@@ -8,7 +8,6 @@ import org.openqa.selenium.WebDriver;
 public abstract class BaseTest {
     public WebDriver driver = DriverManager.setDriver("chrome");
     public String SWAGLABS_URL = "https://www.saucedemo.com/";
-
     @Before
     public void setUp(){
         driver.get(SWAGLABS_URL);

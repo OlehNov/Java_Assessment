@@ -6,7 +6,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-
 public class DriverManager {
     public static WebDriver driver;
     public static WebDriver setDriver(String browserName){

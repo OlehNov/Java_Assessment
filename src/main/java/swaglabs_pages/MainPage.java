@@ -8,6 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class MainPage extends BasePage {
+
     @FindBy(xpath = "//input[@id='user-name']")
     WebElement userNameInput;
     @FindBy(xpath = "//input[@id='password']")

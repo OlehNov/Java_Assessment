@@ -8,6 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class Products extends BasePage {
+
     @FindBy(xpath = "//div[@class='app_logo']")
     WebElement appLogo;
 

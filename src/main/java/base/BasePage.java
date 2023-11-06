@@ -18,9 +18,11 @@ public abstract class BasePage {
     public void waitAndClick(WebElement locator){
         wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
     }
+
     public void waitAndSendKeys(WebElement locator, String value){
         wait.until(ExpectedConditions.elementToBeClickable(locator)).sendKeys(value);
     }
+
     public void selectAndDeleteTextInInput(WebElement element){
         wait.until(ExpectedConditions.visibilityOf(element)).sendKeys(Keys.CONTROL + "a");
         wait.until(ExpectedConditions.visibilityOf(element)).sendKeys(Keys.BACK_SPACE);

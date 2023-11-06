@@ -26,7 +26,6 @@ public class SwagLabsTest extends BaseTest{
                 .loginButtonClick();
         Assert.assertEquals("Unexpected result:", ERROR_USER_MESSAGE, mainPage.readErrorMessage());
     }
-
     @Test
     public void testUCSecond(){
         MainPage mainPage = new MainPage(driver);
@@ -37,7 +36,6 @@ public class SwagLabsTest extends BaseTest{
                 .loginButtonClick();
         Assert.assertEquals("Unexpected result:", ERROR_PASSWORD_MESSAGE, mainPage.readErrorMessage());
     }
-
     @Test
     public void testUCThird(){
         MainPage mainPage = new MainPage(driver);
